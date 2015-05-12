@@ -1,3 +1,17 @@
+//Setting up the joystick and arduino
+//Gather jumper wires, arduino leonardo, breadboard and a joystick
+//Connect a wire to the ground (GND) port of the Arduino Leondardo to a pin on the ground rail of the breadboard
+//Connect a wire from the power rail of the breadboard to the 5V port on the Arduino leonardo
+//Connect a wire from row 58 and row 59 to A-1 and A-0 respectively on the arduino
+//Connect a jumper wire from the ground rail of the breadboard (be sure it's along the same column as the wire you already attached to the ground rail) to row 56 
+//Connect a jumper wire from the power rail of the breadboard (same column as the wire already connecting the power rail to the 5V port on the arduino) to row 60 of the breadboard
+//Connect a wire from the VCC port on the joystick to row 60 on the breadboard
+//Connect a wire from the Vertical port (VERT) on the joystick to row 59 (Joystick)
+//Connect a wire from the Horizontal port (Horz) on the joystick to row 58 (Joystick)
+//Connect a wire from the (SEL) port on the joystick to row 57 (Joystick)
+//Connect a wire from the (GND) port on the joystick to row 56 (Joystick)
+
+
 
  int joyPin1 = 0;                 // slider variable connecetd to analog pin 0
  int joyPin2 = 1;
